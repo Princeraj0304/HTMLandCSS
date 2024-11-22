@@ -1,0 +1,19 @@
+body{
+   background-color: khaki;
+}
+
+.head1{
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+
+#head{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;  /* decorate the text */
+    font-size: 40px;
+    text-align: center;        /* text algn property is used to align the text in center */
+
+    text-decoration-style: wavy; /*only works if we have used text align property */
+    
+}
+
