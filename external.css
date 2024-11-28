@@ -5,15 +5,27 @@ body{
 .head1{
     color: rgb(0, 0, 0);
     background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #head{
     color: rgb(0, 0, 0);
     text-decoration: underline;  /* decorate the text */
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;        /* text algn property is used to align the text in center */
+    text-decoration-style: wavy; /*only works if we have used text decoration property */
+    text-decoration-color: navy;
+    font-family: 'Courier New', Courier, monospace;  /*text ke likhne ka tareeka change ho jyeaga*/
+    font-style: italic;
 
-    text-decoration-style: wavy; /*only works if we have used text align property */
+}
+
+.head2{
+    font-size: 50px;
+    text-shadow:-2px 3px 2px purple; 
+    /* Horizontal Vertical Blur Color */
+    text-transform: uppercase; /* Changes the text in uppercase , lowercase or capitalized */
+    text-align: center;
     
 }
 

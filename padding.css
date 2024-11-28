@@ -1,0 +1,13 @@
+.padding{
+    background-color: pink;
+    padding: 20px;
+    border: 2px solid;
+    
+}
+
+button{
+    font-family: "Bungee Spice", sans-serif;
+    padding: 8px 12px;
+    /* First value is of top an bottom padding and second value of left and right*/
+    
+}
