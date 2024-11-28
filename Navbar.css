@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: wheat;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
