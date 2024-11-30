@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(19, 88, 88);
+    display: flex;
+    padding: 140px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.text button{
+    background-color: red;
+    color: white;
+}
+
+.text h1{
+    padding-bottom: 40px;
+}
