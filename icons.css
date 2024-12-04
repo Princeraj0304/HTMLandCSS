@@ -1,0 +1,10 @@
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    border: 1px solid;
+}
+
+.fa-solid{
+    color: blue;
+}
