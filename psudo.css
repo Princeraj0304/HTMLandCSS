@@ -1,0 +1,9 @@
+.btn:hover{
+    background-color: pink;
+    border-radius: 10px;
+    border: none;
+}
+
+img:hover{
+   border-radius: 1000px;
+}
