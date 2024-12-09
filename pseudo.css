@@ -1,0 +1,26 @@
+.head::first-letter{
+    font-size: 80px;
+    font-family: sans-serif;
+    color: red;
+}
+
+.para::first-line{
+    text-decoration: underline;
+    color: orange;
+}
+
+.head2::before{
+    content: " Mr ";
+    color: goldenrod;
+
+}
+
+.head2::after{
+   content: " Raj ";
+   color : purple;
+
+}
+
+input::placeholder{
+    color: violet;
+}
