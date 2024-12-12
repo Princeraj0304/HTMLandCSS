@@ -1,0 +1,39 @@
+.container{
+height: 200px;
+width: 200px;
+background-color: red;
+position: relative;
+animation-name: myanimation;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+
+
+}
+
+@keyframes myanimation {
+    0%{
+     left: 0;
+     top: 0;
+    }
+
+    30%{
+     left: 200px;
+     top: 200px;
+     border-radius: 100px;
+     background-color: blue;
+
+    }
+    
+    60%{
+        left: 300px;
+        top: 0;
+        background-color: yellow;
+    }
+
+    100%{
+        left: 0;
+        right: 0;
+    }
+
+}

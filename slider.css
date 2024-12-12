@@ -1,0 +1,23 @@
+.slider{
+    height: 80vh;
+    background-image: url(1920x750-Air-India-X-Saudi-with-fares-web_Large1x.jpeg);
+    background-size: cover;
+    animation-name: slide;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes  slide{
+     0%{
+     background-image: url(banner_four_web_Large1x.jpeg);
+     
+     }
+     20%{
+     background-image: url(banner_four_web_Large1x.jpeg);
+     }
+    
+     100%{
+     background-image: url(1920x750-Web_Large1x.jpeg);
+     }
+}

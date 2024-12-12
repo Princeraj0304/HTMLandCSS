@@ -24,3 +24,8 @@
 input::placeholder{
     color: violet;
 }
+
+input{
+    border-color: pink;
+
+}

@@ -1,0 +1,10 @@
+
+
+.content{
+    position: absolute;
+     /* treats whole body as its parents */
+    top: 5px;
+    left: 100px;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
